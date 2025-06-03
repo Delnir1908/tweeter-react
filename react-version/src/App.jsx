@@ -9,8 +9,10 @@ function App() {
     <div>
       <Navigation />
       <Profile />
-      <TweetList />
+      <main className='container'>
       <TweetForm />
+      <TweetList />
+      </main>
     </div>
   )
 }
